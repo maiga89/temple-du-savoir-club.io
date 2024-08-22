@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple du Savoir Club</title>
+    <link rel="stylesheet" href="C:\Users\MAIGA DESIGN\Desktop\SITE WEB TSC\TSC CSS.css">
+</head>
+<body>
+    <header>
+        <img src="C:\Users\MAIGA DESIGN\Desktop\SITE WEB TSC\IMAGE\LOGO TSC.png"  class="logo">
+        <h1>Temple du Savoir Club</h1>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showSection('home')">Accueil</a></li>
+                <li><a href="#" onclick="showSection('about')">À Propos</a></li>
+                <li><a href="#" onclick="showSection('informatique')">Informatique</a></li>
+                <li><a href="#" onclick="showSection('mise_a_niveau')">Mise à Niveau</a></li>
+                <li><a href="#" onclick="showSection('karate')">Karaté</a></li>
+                <li><a href="#" onclick="showSection('sketchs')">Sketchs</a></li>
+                <li><a href="#" onclick="showSection('arts_oratoires')">Arts Oratoires</a></li>
+                <li><a href="#" onclick="showSection('livraison')">Livraison</a></li>
+                <li><a href="#" onclick="showSection('contact')">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="section active">
+            <div class="hero">
+                
+                <h2>Bienvenue au Temple du Savoir Club</h2>
+                <p>Promouvoir l'excellence en milieu académique et professionnel.</p>
+            </div>
+            <div class="content">
+                <h2></h2>
+                <img src="C:\Users\MAIGA DESIGN\Desktop\SITE WEB TSC\IMAGE\DAOUDI.png" class="section-image"><h4>Coulibaly Daouda Jr</h4> <p>Président du TSC</p>
+                
+                <H1>Qui Sommes-Nous ?</H1>
+                <p>
+                    Le Temple du Savoir Club (TSC) est une organisation ivoirienne dédiée à la promotion de l'excellence dans le domaine de la formation académique et professionnelle. Fondé en 2017 et officiellement reconnu en 2020, le TSC offre des formations variées allant des compétences numériques à l'art oratoire.
+                </p>
+                <p>
+                    Notre mission est de contribuer au développement de la Côte d'Ivoire et de l'Afrique en mettant l'accent sur une formation de qualité. Nous croyons fermement que l'éducation est un pilier essentiel pour le progrès. Nous visons à créer une institution universitaire qui offrira des diplômes reconnus, tout en élargissant notre présence à travers le pays.
+                </p>
+            </div>
+        </section>
+        <section id="about" class="section">
+            <div class="content">
+                <h2>À Propos de Nous</h2>
+                <img src="C:\Users\MAIGA DESIGN\Desktop\SITE WEB TSC\IMAGE\AZER.jpg" alt="À Propos" class="section-image">
+                <p>Le Temple du Savoir Club est une structure ivoirienne dédiée à la promotion de l'excellence à travers la formation.</p>
+            </div>
+        </section>
+        <section id="informatique" class="section">
+            <div class="content">
+                <h2>Informatique</h2>
+                <img src="C:\Users\MAIGA DESIGN\Desktop\SITE WEB TSC\IMAGE\IMG-20240723-WA0026.jpg" alt="Informatique" class="section-image">
+                <p>Formation aux compétences numériques et technologiques.</p>
+            </div>
+        </section>
+        <section id="mise_a_niveau" class="section">
+            <div class="content">
+                <h2>Mise à Niveau</h2>
+                <img src="C:\Users\MAIGA DESIGN\Desktop\SITE WEB TSC\IMAGE\IMG-20240121-WA0004.jpg" alt="Mise à Niveau" class="section-image">
+                <p>Soutien scolaire pour améliorer les performances académiques.</p>
+            </div>
+        </section>
+        <section id="karate" class="section">
+            <div class="content">
+                <h2>Karaté</h2>
+                <img src="C:\Users\MAIGA DESIGN\Desktop\SITE WEB TSC\IMAGE\IMG-20240110-WA0225.jpg" alt="Karaté" class="section-image">
+                <p>Enseignement des arts martiaux pour le développement physique et mental.</p>
+            </div>
+        </section>
+        <section id="sketchs" class="section">
+            <div class="content">
+                <h2>Sketchs</h2>
+                <img src="C:\Users\MAIGA DESIGN\Desktop\SITE WEB TSC\IMAGE\IMG-20240813-WA0000.jpg" alt="Sketchs" class="section-image">
+                <p>Expression artistique à travers le théâtre et les sketches.</p>
+            </div>
+        </section>
+        <section id="arts_oratoires" class="section">
+            <div class="content">
+                <h2>Arts Oratoires</h2>
+                <img src="C:\Users\MAIGA DESIGN\Desktop\SITE WEB TSC\IMAGE\AA7.png" alt="Arts Oratoires" class="section-image">
+                <p>Formation à la prise de parole en public et au leadership.</p>
+            </div>
+        </section>
+        <section id="livraison" class="section">
+            <div class="content">
+                <h2>Livraison</h2>
+                <img src="C:\Users\MAIGA DESIGN\Desktop\SITE WEB TSC\IMAGE\AFFICHE DE TSC LIVRAISON.jpg" alt="Livraison" class="section-image">
+                <p>Service de livraison pratique et fiable développé par nos membres.</p>
+            </div>
+        </section>
+        <section id="contact" class="section">
+            <div class="content">
+                <h2>Contactez-Nous</h2>
+                <form>
+                    <label for="name">Nom:</label>
+                    <input type="text" id="name" name="name" required><br>
+                    <label for="phone">Numéro de téléphone:</label>
+                    <input type="tel" id="phone" name="phone" required><br>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" required></textarea><br>
+                    <button type="submit">Envoyer</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Temple du Savoir Club. Tous droits réservés.</p>
+    </footer>
+    <script src="C:\Users\MAIGA DESIGN\Desktop\SITE WEB TSC\TSC JS.js"></script>
+</body>
+</html>
